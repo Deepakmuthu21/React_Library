@@ -1,0 +1,27 @@
+/* .create{
+    color: black;
+    text-decoration: none;
+}
+.create:hover{
+color: green;
+cursor: pointer;
+transform: translateY(-3px);
+
+} */
+ body{
+  background-color: #c40b67;
+ }
+.error1{
+  color: red;
+}
+
+a:hover{
+  background-color: rgb(94, 94, 194);
+  color: white;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.titleName{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
