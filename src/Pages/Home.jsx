@@ -37,7 +37,7 @@ function Home({ bookData }) {
                 <div className='row'>
                     {books.map((ele, index) => {
                         return (
-                            <div key={index} className='card mb-3 col-12 col-md-6 col-lg-3'>
+                            <div key={index} className='card m-2 mb-3 col-12 col-md-6 col-lg-3'>
                                 <div className='card-body m-2'>
                                     <h5 className='card-title'>{ele.title}</h5>
                                     <p className='card-text'><strong>Author Name: </strong>{ele.authorName}</p>
@@ -56,7 +56,7 @@ function Home({ bookData }) {
                 <div className='row'>
                     {books.map((ele, index) => {
                         return (
-                            <div key={index} className='card mb-3 col-12 col-md-6 col-lg-3 mr-2'>
+                            <div key={index} className='card m-2 mb-3 col-12 col-md-6 col-lg-3 mr-2'>
                                 <div className='card-body m-2'>
                                     <h5 className='card-title'><strong>Author Name: </strong>{ele.authorName}</h5>
                                     <p className='card-text'><strong>Date of Birth : </strong>{ele.dob}</p>
