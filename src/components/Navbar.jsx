@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <div className='position-fixed Head'>
+        <div className='navbar-fixed Head'>
             <nav className='fw-bold shadow bg-primary' >
                 <div className='p-4 fs-1 d-flex justify-content-between align-items-center '>
                     <div className='d-flex align-items-center'>
