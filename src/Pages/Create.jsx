@@ -23,6 +23,8 @@ function Create({ addBook, updateBook, editBook ,setEditBook}) {
             setFormValues(initialValues);
         }
     }, [editBook])
+    console.log(editBook);
+    
 
     //Formik Validations fro input fields
     const validationSchema = Yup.object().shape({

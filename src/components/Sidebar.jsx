@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
-        <div className='sidebar-fixed bg-success-subtle fw-bolder vh-100'>
+        <div className='position-fixed bg-success-subtle fw-bolder vh-100'>
             <div className='list-group list-group-flushm p-3 '>
                 <Link to="/" className='list-group-item  my-2 bg-success'>
                     <span className='fs-5'><i className="fa-solid fa-house"></i>&nbsp;Dashboard</span>
